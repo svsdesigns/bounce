@@ -27,7 +27,7 @@
   var homeResponse = null;
   var homeData = new XMLHttpRequest();
   // https://api.dribbble.com/v2/popular_shots/?timeframe=week&
-  var req = 'https://api.dribbble.com/v2/users/Next-Design/shots?page=1&per_page=100&access_token=073f3da0ac09cec19238e2609fb28d52c2ef369c76ee8a9138857947cbca6fcc';
+  var req = 'https://api.dribbble.com/v2/users/Next-Design/shots?page=1&per_page=100&access_token=88e0afb8d02daa23e3f7adb461f831759662b2c5e3c1ea086a65e4ca4aa5467b';
   homeData.open('GET', req, true);
 
   //var preloader = document.getElementById('data-loader');
