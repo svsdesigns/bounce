@@ -82,10 +82,10 @@
 })();
 
 
+/*
 
 
-
-// (function(){
+ (function(){
 
 //   var CardData = null;
 //   var homeData = new XMLHttpRequest();
@@ -153,6 +153,6 @@
   
 
 
-// });
+// });*/
 
 
