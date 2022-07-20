@@ -27,7 +27,7 @@
   var homeResponse = null;
   var homeData = new XMLHttpRequest();
   // https://api.dribbble.com/v2/popular_shots/?timeframe=week&
-  var req = 'https://api.dribbble.com/v2/popular_shots/?access_token=88e0afb8d02daa23e3f7adb461f831759662b2c5e3c1ea086a65e4ca4aa5467b';
+  var req = 'https://api.dribbble.com/v2/user/shots?access_token=88e0afb8d02daa23e3f7adb461f831759662b2c5e3c1ea086a65e4ca4aa5467b';
   homeData.open('GET', req, true);
 
   //var preloader = document.getElementById('data-loader');
@@ -57,7 +57,6 @@
             <img className="card__img" width="400" height="300" src={shots.images.normal}/>
           </div>
           <div className="card__content">
-            <p className="card__desc">{shots.user.name}'s</p>
             <h2 className="card__heading">{shots.title}</h2>
           </div>
         </div>
